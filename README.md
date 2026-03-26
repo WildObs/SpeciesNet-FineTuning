@@ -1,4 +1,4 @@
-# SpeciesNet Fine-Tuning (15 Species)
+# SpeciesNet fine-tuning (15 Species) for QLD Wet Tropics dataset
 
 This repository provides a PyTorch-based pipeline for fine-tuning [SpeciesNet](https://github.com/google/cameratrapai/tree/main) on a custom subset of 15 species. It includes tools to remap and modify the classifier head, handle partially overlapping label sets, and perform lightweight transfer learning using selected EfficientNetV2-M layers.
 

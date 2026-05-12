@@ -101,3 +101,4 @@ Each subfolder name must match a class label in `labels_known.txt` or `labels_ne
 * Images are resized to 480×480 with random augmentations during training (to suit the classifier architecture).
 * Invalid samples (e.g., failed loads, wrong shapes) are zero-filled but tracked.
 * Classifier head orientation is corrected automatically depending on `torch.load()` format.
+* The 15-class head includes 9 species already present in SpeciesNet and 6 novel Wet Tropics species, with existing classifier weights reused and new species nodes randomly initialized.
